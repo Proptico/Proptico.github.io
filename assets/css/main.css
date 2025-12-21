@@ -982,14 +982,14 @@ body {
 }
 
 .tagline {
-  font-size: 1.8rem;
+  font-size: 2.4rem;
   font-weight: 700;
   color: #000000;
   margin-bottom: 0.25rem;
 }
 
 .coming-soon {
-  font-size: 0.9rem;
+  font-size: 2.4rem;
   letter-spacing: 0.15em;
   text-transform: uppercase;
   color: #666666;
@@ -1113,5 +1113,6 @@ img.logo {
   display: inline !important;
   white-space: nowrap !important;
 }
+
 
 
