@@ -1109,3 +1109,7 @@ img.logo {
 .hero-text {
   text-align: center;
 }
+.tagline * {
+  display: inline !important;
+  white-space: nowrap !important;
+}
