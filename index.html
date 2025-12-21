@@ -46,16 +46,10 @@
   </footer>
 
     <script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const form = document.getElementById("waitlist-form");
-    form.style.display = "none";
-  });
-
-  function toggleWaitlist() {
-    const form = document.getElementById("waitlist-form");
-    form.style.display =
-      form.style.display === "none" ? "block" : "none";
-  }
+function toggleWaitlist() {
+  document.getElementById("waitlist-form")
+    .classList.toggle("show");
+}
   </script>
 
 </body>
@@ -63,6 +57,7 @@
 
 	
 		
+
 
 
 
