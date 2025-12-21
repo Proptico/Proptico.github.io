@@ -1067,3 +1067,11 @@ body {
   color: #000000 !important;
   opacity: 1 !important;
 }
+
+/* Force Proptico logo to display */
+.logo {
+  display: block;
+  max-width: 220px;
+  height: auto;
+  margin: 0 auto 1.5rem auto;
+}
