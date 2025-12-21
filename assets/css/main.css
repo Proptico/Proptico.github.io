@@ -1103,3 +1103,9 @@ img.logo {
   text-align: center;
   margin: 0 auto 0.75rem;
 }
+<div class="hero-text">
+  <h1 class="tagline">Property management. Simplified.</h1>
+</div>
+.hero-text {
+  text-align: center;
+}
