@@ -1081,4 +1081,9 @@ body {
   color: #000000 !important;
   text-align: center;
 }
+img.logo {
+  width: 360px !important;
+  max-width: 90% !important;
+  height: auto !important;
+}
 
