@@ -891,7 +891,7 @@ button,
 	max-width: 720px;
 }
 
-#header .tagline {
+#header p.tagline {
 	font-size: 1.25rem;
 	font-weight: 500;
 	margin-top: 0.5rem;
@@ -899,8 +899,9 @@ button,
 	opacity: 0.9;
 }
 
-#header .description {
-	font-size: 1rem;
+#header p.description {
+	font-size: 0.95rem;
 	line-height: 1.6;
 	opacity: 0.85;
 }
+
