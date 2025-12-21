@@ -1075,3 +1075,8 @@ body {
   height: auto;
   margin: 0 auto 1.5rem auto;
 }
+#header {
+  background: #ffffff !important;
+  color: #000000 !important;
+  text-align: center;
+}
