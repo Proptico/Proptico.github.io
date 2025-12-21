@@ -1365,15 +1365,5 @@ body {
 #waitlist-form.show {
   display: block;
 }
-/* Ensure submit button matches CTA button */
-#waitlist-form .cta-btn {
-  background-color: #6bbf2d; /* same green */
-  color: #fff;
-  border: none;
-  border-radius: 6px;
-  padding: 0.75rem 1.5rem;
-  font-size: 1rem;
-  font-weight: 600;
-  cursor: pointer;
-}
+
 
