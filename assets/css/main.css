@@ -1303,3 +1303,51 @@ body {
 .hero {
   flex: 1;
 }
+
+/* Page layout fix */
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero {
+  flex: 1;
+  text-align: center;
+}
+
+/* Waitlist form hidden by default */
+#waitlist-form {
+  display: none;
+  margin-top: 2rem;
+}
+
+#waitlist-form.show {
+  display: block;
+}
+
+/* Center form */
+#waitlist-form form {
+  max-width: 420px;
+  margin: 0 auto;
+}
+
+/* Inputs visible */
+#waitlist-form input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  color: #000;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+/* Footer stays at bottom */
+#footer {
+  text-align: center;
+  padding: 1.5rem 0;
+}
