@@ -958,3 +958,76 @@ button,
   z-index: -1;
   opacity: 0.9;
 }
+
+/* Page base */
+body {
+  background-color: #ffffff;
+  font-family: 'DM Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* Header container */
+#header {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 4rem 1.5rem;
+}
+
+.logo {
+  width: 96px;
+  height: auto;
+  margin-bottom: 1.5rem;
+}
+
+.tagline {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 0.25rem;
+}
+
+.coming-soon {
+  font-size: 0.9rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #666666;
+  margin-bottom: 1.5rem;
+}
+
+.description {
+  font-size: 1rem;
+  color: #444444;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.cta-btn {
+  background-color: #4FCF3D;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.cta-btn:hover {
+  background-color: #43B933;
+}
+
+#waitlist-form {
+  margin-top: 2rem;
+}
+
+#waitlist-form input {
+  display: block;
+  width: 100%;
+  padding: 0.7rem;
+  margin-bottom: 0.75rem;
+  border-radius: 4px;
+  border: 1px solid #cccccc;
+  font-size: 0.95rem;
+}
