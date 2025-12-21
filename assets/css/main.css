@@ -1052,3 +1052,18 @@ body {
 #footer li {
   color: #000000 !important;
 }
+
+/* ===== Footer visibility fix ===== */
+
+#footer {
+  color: #000000 !important;
+}
+
+#footer li {
+  color: #000000 !important;
+}
+
+#footer ul.copyright {
+  color: #000000 !important;
+  opacity: 1 !important;
+}
