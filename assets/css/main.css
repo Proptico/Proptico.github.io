@@ -905,3 +905,37 @@ button,
 	opacity: 0.85;
 }
 
+/* Waitlist modal */
+.waitlist-modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.waitlist-form {
+  background: #0f1f1a;
+  padding: 2rem;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 420px;
+}
+
+.waitlist-form h3 {
+  margin-top: 0;
+}
+
+.waitlist-form input {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+/* Proptico green */
+.cta-btn {
+  background: #3ad29f;
+  color: #000;
+  border: none;
+}
