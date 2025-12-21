@@ -1016,20 +1016,7 @@ body {
 
 .cta-btn:hover {
   background-color: #43B933;
-}
 
-#waitlist-form {
-  margin-top: 2rem;
-}
-
-#waitlist-form input {
-  display: block;
-  width: 100%;
-  padding: 0.7rem;
-  margin-bottom: 0.75rem;
-  border-radius: 4px;
-  border: 1px solid #cccccc;
-  font-size: 0.95rem;
 }
 
 /* ===== Proptico Coming Soon Reset ===== */
@@ -1124,26 +1111,6 @@ body {
   padding: 4rem 1rem;
 }
 
-/* Waitlist form container */
-#waitlist-form {
-  margin-top: 2rem;
-  padding: 1.5rem;
-  max-width: 420px;
-  margin-left: auto;
-  margin-right: auto;
-  background: #f9f9f9;
-  border-radius: 8px;
-}
-
-#waitlist-form input {
-  width: 100%;
-  padding: 0.75rem;
-  margin-bottom: 0.75rem;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-  font-size: 1rem;
-}
-
 .cta-btn {
   background-color: #4fcf3d; /* Proptico green */
   color: #fff;
@@ -1168,12 +1135,6 @@ body {
 #waitlist-form {
   text-align: center;
 }
-
-/* Center inputs visually */
-#waitlist-form input {
-  display: block;
-  margin: 0.75rem auto;
-}
 /* === NUCLEAR CENTER FIX FOR CTA BUTTONS === */
 button.cta-btn {
   display: block !important;
@@ -1185,20 +1146,7 @@ button.cta-btn {
   position: relative !important;
   left: 0 !important;
   right: 0 !important;
-}
 
-/* Force form to be centered */
-#waitlist-form {
-  display: block !important;
-  width: 100% !important;
-  text-align: center !important;
-}
-
-/* Center inputs explicitly */
-#waitlist-form input {
-  display: block !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
 }
 
 /* === FINAL CTA CENTERING FIX === */
@@ -1227,36 +1175,7 @@ button.cta-btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-}
-/* ===== Force visible waitlist form inputs ===== */
 
-#waitlist-form input {
-  width: 100%;
-  max-width: 420px;
-  padding: 12px 14px;
-  margin: 0 auto 14px auto;
-
-  display: block;
-
-  background: #ffffff;
-  color: #000000;
-
-  border: 1px solid #ccc;
-  border-radius: 6px;
-
-  font-size: 1rem;
-}
-
-#waitlist-form input::placeholder {
-  color: #666;
-}
-#waitlist-form {
-  margin-top: 24px;
-  text-align: center;
-}
-#waitlist-form .cta-btn {
-  display: inline-block;
-  margin: 16px auto 0 auto;
 }
 /* Force visibility of waitlist form fields */
 #waitlist-form input {
@@ -1265,29 +1184,10 @@ button.cta-btn {
   border: 1px solid #ccc !important;
 }
 
-#waitlist-form input::placeholder {
-  color: #666 !important;
-}
-
 /* Centre buttons properly */
 .cta-wrapper {
   text-align: center;
-}
 
-#waitlist-form {
-  text-align: center;
-}
-
-#waitlist-form form {
-  max-width: 420px;
-  margin: 2rem auto 0 auto;
-}
-
-#waitlist-form input {
-  display: block;
-  width: 100%;
-  margin-bottom: 1rem;
-  padding: 0.75rem;
 }
 
 html, body {
@@ -1317,33 +1217,14 @@ body {
 .hero {
   flex: 1;
   text-align: center;
-}
 
-/* Waitlist form hidden by default */
-#waitlist-form {
-  display: none;
-  margin-top: 2rem;
-}
-
-#waitlist-form.show {
-  display: block;
 }
 
 /* Center form */
 #waitlist-form form {
   max-width: 420px;
   margin: 0 auto;
-}
 
-/* Inputs visible */
-#waitlist-form input {
-  width: 100%;
-  padding: 12px;
-  margin-bottom: 12px;
-  color: #000;
-  background: #fff;
-  border: 1px solid #ccc;
-  border-radius: 6px;
 }
 
 /* Footer stays at bottom */
@@ -1365,5 +1246,6 @@ body {
 #waitlist-form.show {
   display: block;
 }
+
 
 
