@@ -1247,5 +1247,22 @@ body {
   display: block;
 }
 
+/* === WAITLIST VISIBILITY (AUTHORITATIVE) === */
+#waitlist-form {
+  display: none;
+  max-width: 420px;
+  margin: 2rem auto 0;
+}
+
+#waitlist-form.show {
+  display: block;
+}
+
+/* Ensure submit button matches CTA */
+#waitlist-form button {
+  background: #f5c400; /* or whatever your CTA yellow is */
+  color: #000;
+  border: none;
+}
 
 
