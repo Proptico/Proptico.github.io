@@ -29,7 +29,7 @@
     </div>
 
     <!-- WAITLIST FORM (HIDDEN BY DEFAULT) -->
-    <div id="waitlist-form">
+    <div id="waitlist-form" data-ignore-theme>
       <form action="https://formspree.io/f/mgowzeld" method="POST">
         <input type="text" name="name" placeholder="Your name" required />
         <input type="email" name="email" placeholder="Your email" required />
@@ -45,11 +45,17 @@
     </ul>
   </footer>
 
-  <script>
-    function toggleWaitlist() {
-      const form = document.getElementById('waitlist-form');
-      form.classList.toggle('show');
-    }
+    <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const form = document.getElementById("waitlist-form");
+    form.style.display = "none";
+  });
+
+  function toggleWaitlist() {
+    const form = document.getElementById("waitlist-form");
+    form.style.display =
+      form.style.display === "none" ? "block" : "none";
+  }
   </script>
 
 </body>
@@ -57,6 +63,7 @@
 
 	
 		
+
 
 
 
