@@ -1031,3 +1031,24 @@ body {
   border: 1px solid #cccccc;
   font-size: 0.95rem;
 }
+
+/* ===== Proptico Coming Soon Reset ===== */
+
+body {
+  background: #ffffff !important;
+  color: #000000 !important;
+}
+
+#header,
+#footer {
+  color: #000000 !important;
+}
+
+#footer {
+  opacity: 1 !important;
+}
+
+#footer a,
+#footer li {
+  color: #000000 !important;
+}
