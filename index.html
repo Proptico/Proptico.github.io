@@ -17,6 +17,28 @@
 			<header id="header" class="hero">
 				<!--your coming soon layout -->
 
+				<section id="header">
+    <img src="assets/images/proptico-logo.png" alt="Proptico logo" class="logo" />
+
+    <h1 class="tagline">Property management. Simplified.</h1>
+    <p class="coming-soon">Coming soon</p>
+
+    <p class="description">
+      Proptico is a modern property management platform designed to give landlords,
+      letting agents, and tenants clarity, visibility, and control — all in one place.
+    </p>
+
+    <button class="cta-btn" onclick="toggleWaitlist()">Join the waitlist</button>
+
+    <div id="waitlist-form" style="display:none;">
+      <form action="https://formspree.io/f/mgowzeld" method="POST">
+        <input type="text" name="name" placeholder="Your name" required />
+        <input type="email" name="email" placeholder="Your email" required />
+        <input type="tel" name="phone" placeholder="Your phone number" />
+        <button type="submit" class="cta-btn">Submit</button>
+      </form>
+    </div>
+  </section>
 </header>
 			</header>
 
@@ -39,28 +61,6 @@
 		
 <body>
 
-  <section id="header">
-    <img src="assets/images/proptico-logo.png" alt="Proptico logo" class="logo" />
-
-    <h1 class="tagline">Property management. Simplified.</h1>
-    <p class="coming-soon">Coming soon</p>
-
-    <p class="description">
-      Proptico is a modern property management platform designed to give landlords,
-      letting agents, and tenants clarity, visibility, and control — all in one place.
-    </p>
-
-    <button class="cta-btn" onclick="toggleWaitlist()">Join the waitlist</button>
-
-    <div id="waitlist-form" style="display:none;">
-      <form action="https://formspree.io/f/mgowzeld" method="POST">
-        <input type="text" name="name" placeholder="Your name" required />
-        <input type="email" name="email" placeholder="Your email" required />
-        <input type="tel" name="phone" placeholder="Your phone number" />
-        <button type="submit" class="cta-btn">Submit</button>
-      </form>
-    </div>
-  </section>
 
   <script>
     function toggleWaitlist() {
@@ -74,6 +74,7 @@
 	</body>
 
 </html>
+
 
 
 
