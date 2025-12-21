@@ -1071,12 +1071,14 @@ body {
 /* Force Proptico logo to display */
 .logo {
   display: block;
-  max-width: 220px;
+  width: 320px;			/*increase size*/
+	max-width: 90% 		/*responsive on mobile*/
   height: auto;
-  margin: 0 auto 1.5rem auto;
+  margin: 0 auto 2rem auto;
 }
 #header {
   background: #ffffff !important;
   color: #000000 !important;
   text-align: center;
 }
+
