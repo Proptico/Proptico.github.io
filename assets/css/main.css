@@ -1088,7 +1088,7 @@ img.logo {
 }
 
 .tagline {
-  font-size: 2.4rem;
+  font-size: 1.9rem;
   font-weight: 700;
   color: #000;
   text-align: center;
@@ -1113,4 +1113,5 @@ img.logo {
   display: inline !important;
   white-space: nowrap !important;
 }
+
 
