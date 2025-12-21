@@ -1157,6 +1157,23 @@ body {
   display: inline-block;
   margin-top: 1.5rem;
 }
+/* FORCE CENTER CTA BUTTONS */
+.cta-btn {
+  display: block;
+  margin: 1.5rem auto;
+  text-align: center;
+}
+
+/* Center the waitlist form itself */
+#waitlist-form {
+  text-align: center;
+}
+
+/* Center inputs visually */
+#waitlist-form input {
+  display: block;
+  margin: 0.75rem auto;
+}
 
 
 
