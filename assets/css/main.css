@@ -1258,4 +1258,35 @@ button.cta-btn {
   display: inline-block;
   margin: 16px auto 0 auto;
 }
+/* Force visibility of waitlist form fields */
+#waitlist-form input {
+  color: #000 !important;
+  background: #fff !important;
+  border: 1px solid #ccc !important;
+}
+
+#waitlist-form input::placeholder {
+  color: #666 !important;
+}
+
+/* Centre buttons properly */
+.cta-wrapper {
+  text-align: center;
+}
+
+#waitlist-form {
+  text-align: center;
+}
+
+#waitlist-form form {
+  max-width: 420px;
+  margin: 2rem auto 0 auto;
+}
+
+#waitlist-form input {
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.75rem;
+}
 
