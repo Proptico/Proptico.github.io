@@ -14,41 +14,40 @@
 	<body class="is-preload">
 
 		<!-- Header -->
-			<header id="header" class="hero"> 
-				<h1>Proptico</h1>
-				
-				<p class="tagline">
-				Property management. Simplified.
-				</p>
-				
-				<p class="description">
-					A modern property management platform helping landlords and letting agents 
-					automate operations, stay compliant, and scale with confidence.
-				</p>
+			<header id="header" class="hero">
 
-				<!-- CTA Button -->
-				<button id="waitlistBtn" class="cta-btn">
-					Join the waitlist
-				</button>
-				
-				<!--- Hidden Form -->
-				<form
-					id="waitlistForm"
-						action="https://formspree.io/f/mgowzeld" 
-						method="POST">
-						style="display: none;"
-					>
-						<input type="text" name="name" placeholder="Full name" required>
+  <h1>Proptico</h1>
 
- 						<input type="email" name="email" placeholder="Email address" required>
+  <p class="tagline">Property management. Simplified.</p>
 
-  						<input type="tel" name="phone" placeholder="Phone number">
+  <p class="description">
+    A modern property management platform helping landlords and letting agents
+    automate operations, stay compliant, and scale with confidence.
+  </p>
 
-  						<button type="submit" class="cta-btn">
-						Submit
-						</button>
+  <!-- CTA Button -->
+  <button id="waitlistBtn" class="cta-btn">
+    Join the waitlist
+  </button>
 
-					</form>
+  <!-- Hidden Form Modal -->
+  <div id="waitlistModal" class="waitlist-modal" style="display: none;">
+    <form
+      action="https://formspree.io/f/mgwzeld"
+      method="POST"
+      class="waitlist-form"
+    >
+      <h3>Join the waitlist</h3>
+
+      <input type="text" name="name" placeholder="Full name" required>
+      <input type="email" name="email" placeholder="Email address" required>
+      <input type="tel" name="phone" placeholder="Phone number">
+
+      <button type="submit" class="cta-btn">Submit</button>
+    </form>
+  </div>
+
+</header>
 			</header>
 
 		<!-- Signup Form -->
@@ -78,6 +77,7 @@ document.getElementById("waitlistBtn").addEventListener("click", function () {
 	</body>
 
 </html>
+
 
 
 
