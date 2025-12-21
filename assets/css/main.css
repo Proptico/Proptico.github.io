@@ -1228,4 +1228,34 @@ button.cta-btn {
   align-items: center;
   justify-content: center;
 }
+/* ===== Force visible waitlist form inputs ===== */
+
+#waitlist-form input {
+  width: 100%;
+  max-width: 420px;
+  padding: 12px 14px;
+  margin: 0 auto 14px auto;
+
+  display: block;
+
+  background: #ffffff;
+  color: #000000;
+
+  border: 1px solid #ccc;
+  border-radius: 6px;
+
+  font-size: 1rem;
+}
+
+#waitlist-form input::placeholder {
+  color: #666;
+}
+#waitlist-form {
+  margin-top: 24px;
+  text-align: center;
+}
+#waitlist-form .cta-btn {
+  display: inline-block;
+  margin: 16px auto 0 auto;
+}
 
