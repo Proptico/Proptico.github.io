@@ -939,3 +939,22 @@ button,
   color: #000;
   border: none;
 }
+
+/* === HERO BACKGROUND RESTORE === */
+#header {
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+#header::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("../../images/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+  opacity: 0.9;
+}
