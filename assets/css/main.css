@@ -1174,6 +1174,32 @@ body {
   display: block;
   margin: 0.75rem auto;
 }
+/* === NUCLEAR CENTER FIX FOR CTA BUTTONS === */
+button.cta-btn {
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-top: 1.5rem !important;
+  margin-bottom: 1.5rem !important;
+  float: none !important;
+  position: relative !important;
+  left: 0 !important;
+  right: 0 !important;
+}
+
+/* Force form to be centered */
+#waitlist-form {
+  display: block !important;
+  width: 100% !important;
+  text-align: center !important;
+}
+
+/* Center inputs explicitly */
+#waitlist-form input {
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
 
 
 
