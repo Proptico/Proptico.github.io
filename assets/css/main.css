@@ -1351,3 +1351,17 @@ body {
   text-align: center;
   padding: 1.5rem 0;
 }
+
+/* ================================
+   WAITLIST FORM OVERRIDE (FINAL)
+   ================================ */
+
+#waitlist-form {
+  display: none !important;
+  max-width: 420px;
+  margin: 2rem auto 0;
+}
+
+#waitlist-form.show {
+  display: block !important;
+}
