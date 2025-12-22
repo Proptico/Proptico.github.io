@@ -1384,4 +1384,17 @@ button.cta-btn:hover {
 body {
   outline: 5px solid red;
 }
+/* ===== FORCE WAITLIST SUBMIT BUTTON (FINAL OVERRIDE) ===== */
+#waitlist-form button.cta-btn,
+#waitlist-form button.cta-btn:visited {
+  background-color: #4fcf3d !important;
+  color: #ffffff !important;
+  border: none !important;
+}
+
+#waitlist-form button.cta-btn:hover,
+#waitlist-form button.cta-btn:focus {
+  background-color: #43b933 !important;
+  color: #ffffff !important;
+}
 
