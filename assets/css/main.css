@@ -1370,3 +1370,7 @@ button.cta-btn {
 button.cta-btn:hover {
   background-color: #43b833 !important;
 }
+
+body {
+  outline: 5px solid red;
+}
