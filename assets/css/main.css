@@ -1265,5 +1265,10 @@ body {
   border: none;
 }
 
+#waitlist-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px; /* controls spacing between fields */
+}
 
 
