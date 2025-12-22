@@ -1270,6 +1270,48 @@ body {
   flex-direction: column;
   gap: 14px; /* controls spacing between fields */
 }
-::placeholder { color: #9e9e9e; }
+/* ===== WAITLIST FORM HARD OVERRIDE ===== */
+
+#waitlist-form {
+  display: none;
+}
+
+#waitlist-form.show {
+  display: block;
+}
+
+#waitlist-form form {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 16px !important;
+}
+
+#waitlist-form input {
+  display: block !important;
+  width: 100% !important;
+  padding: 14px 16px !important;
+  font-size: 16px !important;
+  border-radius: 8px !important;
+  border: 1px solid #ccc !important;
+  background: #fff !important;
+  color: #000 !important;
+  box-sizing: border-box !important;
+}
+
+#waitlist-form input::placeholder {
+  color: #9e9e9e !important;
+}
+
+#waitlist-form input:focus {
+  border-color: #4CAF50 !important;
+  outline: none !important;
+}
+
+#waitlist-form button.cta-btn {
+  margin-top: 8px !important;
+  background-color: #4CAF50 !important;
+  color: #fff !important;
+}
+
 
 
