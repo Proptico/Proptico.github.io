@@ -1473,4 +1473,14 @@ body {
     min-height: auto !important;
   }
 }
+/* === FORCE WAITLIST INPUTS TO MATCH === */
+#waitlist-form input[type="text"],
+#waitlist-form input[type="email"],
+#waitlist-form input[type="tel"] {
+  height: 52px !important;
+  padding: 14px 16px !important;
+  font-size: 16px !important;
+  line-height: normal !important;
+  box-sizing: border-box !important;
+}
 
