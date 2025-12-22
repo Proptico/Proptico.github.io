@@ -1260,9 +1260,10 @@ body {
 
 /* Ensure submit button matches CTA */
 #waitlist-form button {
-  background: #f5c400; /* or whatever your CTA yellow is */
+  background: #4fcf3d; 
   color: #000;
   border: none;
 }
+
 
 
