@@ -1362,3 +1362,11 @@ body {
 .cta-btn:hover {
   background-color: #43b833;
 }
+button.cta-btn {
+  background-color: #4fcf3d !important;
+  color: #ffffff !important;
+}
+
+button.cta-btn:hover {
+  background-color: #43b833 !important;
+}
