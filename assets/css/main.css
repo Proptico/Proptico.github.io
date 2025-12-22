@@ -1326,3 +1326,8 @@ body {
   max-height: 500px; /* enough to fit the form */
   margin-top: 24px;
 }
+@media (max-width: 768px) {
+  #footer {
+    margin-top: 2rem;
+  }
+}
