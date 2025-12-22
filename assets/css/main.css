@@ -1432,4 +1432,18 @@ body {
 #waitlist-form button:hover {
   background-color: #43b933 !important;
 }
+/* === WAITLIST FORM INPUTS (AUTHORITATIVE) === */
+#waitlist-form input {
+  width: 100% !important;
+  padding: 14px 16px !important;
+  margin-bottom: 14px !important;
+  font-size: 16px !important;
+  border-radius: 8px !important;
+  border: 1px solid #ccc !important;
+  background: #fff !important;
+  color: #000 !important;
+  box-sizing: border-box !important;
+  appearance: none !important;
+  -webkit-appearance: none !important;
+}
 
