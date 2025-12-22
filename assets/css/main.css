@@ -1308,9 +1308,19 @@ body {
 }
 
 #waitlist-form button.cta-btn {
-  margin-top: 8px !important;
-  background-color: #4CAF50 !important;
-  color: #fff !important;
+  background-color: #4fcf3d;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 14px 32px;
+  margin: 24px auto 0;
+  display: block;
+  font-weight: 600;
+  transition: background-color 0.2s ease;
+}
+
+#waitlist-form button.cta-btn:hover {
+  background-color: #43b933;
 }
 
 /* ===== WAITLIST FORM VISIBILITY (FIXED FOOTER) ===== */
@@ -1374,3 +1384,4 @@ button.cta-btn:hover {
 body {
   outline: 5px solid red;
 }
+
