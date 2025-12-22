@@ -1095,7 +1095,11 @@ body {
 
 .hero {
   min-height: 100vh;
-  padding: 3rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;   /* vertical centering */
+  align-items: center;       /* horizontal centering */
+  padding: 2rem 1rem;
   box-sizing: border-box;
 }
 
@@ -1396,5 +1400,36 @@ body {
 #waitlist-form button.cta-btn:focus {
   background-color: #43b933 !important;
   color: #ffffff !important;
+}
+/* === FIX FOOTER POSITION (MOBILE SAFE) === */
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero {
+  flex: 1;
+}
+
+#footer {
+  margin-top: auto;
+  padding: 1.5rem 1rem;
+}
+/* === WAITLIST SUBMIT BUTTON (FINAL) === */
+#waitlist-form button {
+  background-color: #4fcf3d !important;
+  color: #ffffff !important;
+  border: none !important;
+  border-radius: 8px;
+  padding: 14px 28px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+#waitlist-form button:hover {
+  background-color: #43b933 !important;
 }
 
