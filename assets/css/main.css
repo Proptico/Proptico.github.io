@@ -1446,4 +1446,31 @@ body {
   appearance: none !important;
   -webkit-appearance: none !important;
 }
+/* === MOBILE FOOTER FIX (AUTHORITATIVE) === */
+@media screen and (max-width: 736px) {
+  footer#footer {
+    position: static !important;
+    margin-top: 3rem !important;
+    padding-bottom: 2rem !important;
+    z-index: 1 !important;
+  }
+
+  #waitlist-form {
+    position: relative !important;
+    z-index: 10 !important;
+  }
+}/* === MOBILE INPUT NORMALISATION === */
+@media screen and (max-width: 736px) {
+  #waitlist-form input {
+    height: 52px !important;
+    line-height: 52px !important;
+  }
+}/* === MOBILE HERO SPACING FIX === */
+@media screen and (max-width: 736px) {
+  .hero {
+    padding-top: 6rem !important;
+    padding-bottom: 3rem !important;
+    min-height: auto !important;
+  }
+}
 
