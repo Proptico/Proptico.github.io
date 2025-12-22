@@ -1346,3 +1346,19 @@ body {
   border: 1px solid #ccc;
   font-size: 16px;
 }
+/* Proptico CTA buttons */
+.cta-btn {
+  background-color: #4fcf3d;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 14px 28px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.cta-btn:hover {
+  background-color: #43b833;
+}
